@@ -31,9 +31,7 @@ section{
     padding-bottom: 100px;
     padding-top: 100px;
 }
-.half-width img{
-    height: 100%;
-}
+
 .intro{
     background-image: url(header-bg.png);
     background-repeat: no-repeat;
@@ -80,7 +78,28 @@ section{
     background-repeat: no-repeat;
     background-position: left;
 }
+.button-class{
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,rgb(236, 80, 147),rgb(236, 76, 122));
+    color: white;
+    padding: 30px 100px;
+}
+.button-class p{
+    color: white;
+}
+.div-margin{
+    margin-bottom: 70px;
+}
+.weight1{
+    color: dimgray; 
+    font-weight: 400;
+}
+.weight2 h4{
+    font-weight: 400;
+    color: rgb(46, 44, 44);
+}
 footer{
-    text-align: center;
-    
+    text-align: center; 
+    font-size: 12px;
 }
